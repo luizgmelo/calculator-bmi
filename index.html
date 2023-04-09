@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1 class="head">Calculator IMC</h1>
+        <form>
+            <div class="div-inputs">
+                <label for="sex">Sex:</label>
+                <select class="div-inputs selection" id="sex" name="sex">
+                    <option value="Man">Man</option>
+                    <option value="Woman">Woman</option>
+                </select>
+            </div>
+            <div class="div-inputs">
+                <label for="age">Age:</label>
+                <input class="inputs" type="number" id="age">
+            </div>
+            <div class="div-inputs">
+                <label for="height">Height(m):</label>
+                <input class="inputs" type="number" id="height">
+            </div>
+            <div class="div-inputs">
+                <label for="weight">Weight(kg):</label>
+                <input class="inputs" type="number" id="weight">
+            </div>
+            <input type="button" id="buttonCalculate" class="div-inputs button" value="Calculate" 
+            onclick="calculateIMC()">
+        </form>
+    </div> 
+</body>
+</html>
