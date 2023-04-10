@@ -12,13 +12,13 @@ function calculateBMI() {
 
     if (bmi < 18.5) {
         classification = 'under weight'
-    } else if (bmi >= 18.5 && bmi <= 24.9) {
+    } else if (bmi >= 18.5 && bmi <= 24.99) {
         classification = 'normal weight'
-    } else if (bmi >= 25 && bmi <= 29.9) {
+    } else if (bmi >= 25 && bmi <= 29.99) {
         classification = 'over weight'
-    } else if (bmi >= 30 && bmi <= 34.9) {
+    } else if (bmi >= 30 && bmi <= 34.99) {
         classification = 'Obese (Class I)'
-    } else if (bmi >= 35 && bmi <= 39.9) {
+    } else if (bmi >= 35 && bmi <= 39.99) {
         classification = 'Obese (Class II)'
     } else if (bmi > 40) {
         classification = 'Obese (Class III)'
