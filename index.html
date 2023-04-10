@@ -7,28 +7,15 @@
 <body>
     <div class="calculator">
         <h1 class="head">Calculator BMI</h1>
-        <form>
-            <div class="div-inputs">
-                <label for="sex">Sex:</label>
-                <select class="div-inputs selection" id="sex" name="sex">
-                    <option value="Man">Man</option>
-                    <option value="Woman">Woman</option>
-                </select>
-            </div>
-            <div class="div-inputs">
-                <label for="age">Age:</label>
-                <input class="inputs" type="number" id="age">
-            </div>
-            <div class="div-inputs">
-                <label for="height">Height(m):</label>
-                <input class="inputs" type="number" id="height">
-            </div>
-            <div class="div-inputs">
-                <label for="weight">Weight(kg):</label>
-                <input class="inputs" type="number" id="weight">
-            </div>
-            <input type="button" id="buttonCalculate" class="div-inputs button" value="Calculate"> 
-        </form>
+        <div class="div-inputs">
+            <label for="height">Height(m):</label>
+            <input class="inputs" type="number" id="height">
+        </div>
+        <div class="div-inputs">
+            <label for="weight">Weight(kg):</label>
+            <input class="inputs" type="number" id="weight">
+        </div>
+        <input type="button" id="buttonCalculate" class="div-inputs button" value="Calculate"> 
     </div>
     <h3 id="result"></h3>
     <script src="./script.js"></script>
