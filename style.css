@@ -5,6 +5,7 @@
 }
 
 .head {
+    margin-bottom: 20px;
     text-indent: 20px;
 }
 
@@ -26,6 +27,7 @@ body {
     padding: 10px;
     margin-bottom: 30px;
     border: 1px solid black; 
+    gap: 10px; 
 }
 
 .selection {
