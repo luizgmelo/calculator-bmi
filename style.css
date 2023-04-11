@@ -9,6 +9,12 @@
     text-indent: 20px;
 }
 
+.highlight {
+    text-align: center;
+    color: #f00;
+    font-weight: bold; 
+}
+
 body {
     display: flex;
     flex-direction: column; 
