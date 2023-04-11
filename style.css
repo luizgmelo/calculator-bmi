@@ -58,3 +58,8 @@ body {
 .button:hover {
     background-color: #fff;
 }
+
+.result {
+    text-align: center;
+    padding: 10px;
+}
